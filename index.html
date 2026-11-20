@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sway: build a hanging mobile. A game for iPhone.</title>
+<meta name="description" content="Sway is a game for iPhone about building a hanging mobile, one painted piece at a time. Every piece tips everything above it. In development. One price, no ads, no in-app purchases, no account.">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#F3EDE1" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1A1816" media="(prefers-color-scheme: dark)">
+<!-- appmeta:start --><!-- appmeta:end -->
+<link rel="canonical" href="https://jakeintech.github.io/sway-site/">
+<link rel="icon" type="image/png" href="assets/img/favicon.png">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Sway">
+<meta property="og:title" content="Sway: build a hanging mobile">
+<meta property="og:description" content="A game for iPhone. Hang painted pieces one at a time. Every piece tips everything above it.">
+<meta property="og:url" content="https://jakeintech.github.io/sway-site/">
+<meta property="og:image" content="https://jakeintech.github.io/sway-site/assets/img/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Sway. Build a hanging mobile. Every piece tips everything above it. A game for iPhone.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Sway: build a hanging mobile">
+<meta name="twitter:description" content="A game for iPhone. Hang painted pieces one at a time. Every piece tips everything above it.">
+<meta name="twitter:image" content="https://jakeintech.github.io/sway-site/assets/img/og.png">
+<meta name="twitter:image:alt" content="Sway. Build a hanging mobile. Every piece tips everything above it. A game for iPhone.">
+<link rel="preload" href="assets/fonts/DMSerifDisplay-Regular.ttf" as="font" type="font/ttf" crossorigin>
+<link rel="preload" href="assets/fonts/DMSans-Regular.ttf" as="font" type="font/ttf" crossorigin>
+<link rel="stylesheet" href="assets/site.css">
+<!-- ld:start -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VideoGame",
+  "name": "Sway",
+  "description": "Sway is a game for iPhone about building a hanging mobile, one painted piece at a time. Every piece tips everything above it.",
+  "genre": [
+    "Puzzle"
+  ],
+  "gamePlatform": [
+    "iPhone"
+  ],
+  "operatingSystem": "iOS 18 or later",
+  "applicationCategory": "GameApplication",
+  "playMode": [
+    "SinglePlayer"
+  ],
+  "url": "https://jakeintech.github.io/sway-site/",
+  "image": "https://jakeintech.github.io/sway-site/assets/img/icon-512.png",
+  "author": {
+    "@type": "Person",
+    "name": "Jake Williams"
+  }
+}
+</script>
+<!-- ld:end -->
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="wrap">
+    <a class="brand" href="./" aria-label="Sway home">
+      <picture><source srcset="assets/img/icon-192-dark.png" media="(prefers-color-scheme: dark)"><img src="assets/img/icon-192.png" alt="" width="32" height="32"></picture>
+      Sway
+    </a>
+    <nav class="site-nav" aria-label="Site">
+      <a href="#how">How it plays</a>
+      <a href="press.html">Press</a>
+      <a href="support.html">Support</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+<section class="hero" aria-labelledby="hero-title">
+  <div class="wrap hero-grid">
+    <div class="hero-text">
+      <p class="eyebrow">A game for iPhone</p>
+      <h1 id="hero-title">Sway</h1>
+      <p class="tagline">Build a hanging mobile. Every piece tips everything above it.</p>
+      <p class="lede">You hang painted pieces one at a time. Hang one far from the pivot and it scores more Points. It also tips more.</p>
+      <div class="cta">
+        <!-- store-cta:start --><span class="soon">Coming soon to the App Store</span><!-- store-cta:end -->
+        <a class="btn ghost" href="#how">See how it plays</a>
+      </div>
+      <p class="fine"><!-- store-note:start -->In development, with no release date yet. <!-- store-note:end -->iPhone, iOS 18 or later. One price: no ads, no <span class="nb">in-app</span> purchases, no account.</p>
+    </div>
+    <figure class="hero-art">
+      <svg class="mobile" viewBox="470 -64 500 314" width="500" height="314" role="img" aria-labelledby="mobile-title">
+        <title id="mobile-title">A hanging mobile, swaying gently: three black rods on fine strings carry a red disc, a blue half-moon, a yellow triangle and a brass disc.</title>
+        <line class="string" x1="720" y1="-64" x2="720" y2="40"/>
+        <g transform="translate(720 40)"><g class="turn a">
+          <line class="rod" x1="-120" y1="0" x2="120" y2="0"/>
+          <g transform="translate(-120 0)"><g class="turn a-back">
+            <line class="string" x1="0" y1="0" x2="0" y2="56"/>
+            <g transform="translate(0 56)"><g class="turn b">
+              <line class="rod" x1="-60" y1="0" x2="60" y2="0"/>
+              <g transform="translate(-60 0)"><g class="turn b-back">
+                <line class="string" x1="0" y1="0" x2="0" y2="54"/>
+                <circle class="fill-red" cx="0" cy="90" r="36"/>
+              </g></g>
+              <g transform="translate(60 0)"><g class="turn b-back">
+                <line class="string" x1="0" y1="0" x2="0" y2="80"/>
+                <path class="fill-blue" d="M-48 80 A48 48 0 0 0 48 80 Z"/>
+              </g></g>
+              <circle class="pivot" cx="0" cy="0" r="4.5"/>
+            </g></g>
+          </g></g>
+          <g transform="translate(120 0)"><g class="turn a-back">
+            <line class="string" x1="0" y1="0" x2="0" y2="30"/>
+            <g transform="translate(0 30)"><g class="turn c">
+              <line class="rod" x1="-80" y1="0" x2="60" y2="0"/>
+              <g transform="translate(-80 0)"><g class="turn c-back">
+                <line class="string" x1="0" y1="0" x2="0" y2="80"/>
+                <path class="fill-yellow" d="M0 80 L40 152 L-40 152 Z"/>
+              </g></g>
+              <g transform="translate(60 0)"><g class="turn c-back">
+                <line class="string" x1="0" y1="0" x2="0" y2="50"/>
+                <circle class="fill-brass" cx="0" cy="94" r="44"/>
+              </g></g>
+              <circle class="pivot" cx="0" cy="0" r="4.5"/>
+            </g></g>
+          </g></g>
+          <circle class="pivot" cx="0" cy="0" r="4.5"/>
+        </g></g>
+      </svg>
+    </figure>
+  </div>
+</section>
+
+<section class="section" id="how" aria-labelledby="how-title">
+  <div class="wrap">
+    <p class="eyebrow">How it plays</p>
+    <h2 id="how-title">Far out scores more. Far out tips more.</h2>
+    <ul class="moves">
+      <li>
+        <svg class="hung" viewBox="0 0 48 64" width="48" height="64" aria-hidden="true" focusable="false"><line class="string" x1="24" y1="0" x2="24" y2="24"/><circle class="fill-red" cx="24" cy="42" r="18"/></svg>
+        <h3>Hang</h3>
+        <p>Take a piece from the tray and hang it on a rod. The farther from the pivot, the more Points it scores and the more it tips. A dashed outline shows where the mobile will settle before you let go.</p>
+      </li>
+      <li>
+        <svg class="hung" viewBox="0 0 48 64" width="48" height="64" aria-hidden="true" focusable="false"><line class="string" x1="24" y1="0" x2="24" y2="32"/><path class="fill-blue" d="M4 32 H44 A20 20 0 0 1 4 32 Z"/></svg>
+        <h3>Merge</h3>
+        <p>Matching pieces that touch merge into the next piece up the ladder. The ladder ends at the Brass Sun.</p>
+      </li>
+      <li>
+        <svg class="hung" viewBox="0 0 48 64" width="48" height="64" aria-hidden="true" focusable="false"><line class="string" x1="24" y1="0" x2="24" y2="22"/><path class="fill-yellow" d="M24 22 L44 58 L4 58 Z"/></svg>
+        <h3>Hold on</h3>
+        <p>Gusts swing the whole mobile. A rod tilted past 25° sheds its pieces. A lower rod can catch them.</p>
+      </li>
+    </ul>
+    <figure class="ladder" aria-labelledby="ladder-caption">
+      <ol>
+        <li>
+          <svg viewBox="0 0 110 156" width="110" height="156" class="hung" aria-hidden="true" focusable="false"><line class="string" x1="55" y1="0" x2="55" y2="106"/><circle class="fill-blue" cx="55" cy="128" r="22"/></svg>
+          Bead
+        </li>
+        <li>
+          <svg viewBox="0 0 110 156" width="110" height="156" class="hung" aria-hidden="true" focusable="false"><line class="string" x1="55" y1="0" x2="55" y2="94"/><circle class="fill-red" cx="55" cy="122" r="28"/></svg>
+          Disc
+        </li>
+        <li>
+          <svg viewBox="0 0 110 156" width="110" height="156" class="hung" aria-hidden="true" focusable="false"><line class="string" x1="55" y1="0" x2="55" y2="109.2"/><path class="fill-blue" d="M14.2 109.2 H95.8 A40.8 40.8 0 0 1 14.2 109.2 Z"/></svg>
+          Half-moon
+        </li>
+        <li>
+          <svg viewBox="0 0 110 156" width="110" height="156" class="hung" aria-hidden="true" focusable="false"><line class="string" x1="55" y1="0" x2="55" y2="73.2"/><path class="fill-yellow" d="M55 73.2 L98.2 150 L11.8 150 Z"/></svg>
+          Triangle
+        </li>
+        <li>
+          <svg viewBox="0 0 110 156" width="110" height="156" class="hung" aria-hidden="true" focusable="false"><line class="string" x1="55" y1="0" x2="55" y2="46"/><path class="fill-brass" d="M55.0 46.0 L61.2 60.0 L48.8 60.0Z M81.0 53.0 L79.4 68.2 L68.6 62.0Z M100.0 72.0 L91.0 84.4 L84.8 73.6Z M107.0 98.0 L93.0 104.2 L93.0 91.8Z M100.0 124.0 L84.8 122.4 L91.0 111.6Z M81.0 143.0 L68.6 134.0 L79.4 127.8Z M55.0 150.0 L48.8 136.0 L61.2 136.0Z M29.0 143.0 L30.6 127.8 L41.4 134.0Z M10.0 124.0 L19.0 111.6 L25.2 122.4Z M3.0 98.0 L17.0 91.8 L17.0 104.2Z M10.0 72.0 L25.2 73.6 L19.0 84.4Z M29.0 53.0 L41.4 62.0 L30.6 68.2Z"/><circle class="fill-brass" cx="55" cy="98" r="39.5"/></svg>
+          Brass Sun
+        </li>
+      </ol>
+      <figcaption id="ladder-caption">The merge ladder. Two matching pieces that touch become the next one along.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="section" id="run" aria-labelledby="run-title">
+  <div class="wrap">
+    <p class="eyebrow">A run</p>
+    <h2 id="run-title">8 commissions. About 12 to 15 minutes.</h2>
+    <p class="intro">A commission is one mobile. It gives you a score target and a fixed number of pieces to reach it with.</p>
+    <dl class="catalogue">
+      <div><dt>Score</dt><dd>Your score is Points × Mult. Points come from where you hang each piece.</dd></div>
+      <div><dt>The studio</dt><dd>Between commissions you visit the studio for Charms and Tools.</dd></div>
+      <div><dt>Charms</dt><dd>Modifiers that bend the rules. You hold up to 5 Charms.</dd></div>
+      <div><dt>Tools</dt><dd>One-shot items. Use a Tool once and it is gone.</dd></div>
+      <div><dt>Daily commission</dt><dd>A commission that uses the same seed for everyone. Its leaderboard uses Game Center, which is optional.</dd></div>
+      <div><dt>Gallery</dt><dd>Your finished mobiles are kept in a gallery. You can share a picture of one if you like.</dd></div>
+    </dl>
+  </div>
+</section>
+
+<section class="section" id="play" aria-labelledby="play-title">
+  <div class="wrap">
+    <p class="eyebrow">In play</p>
+    <h2 id="play-title">Captured from a development build.</h2>
+    <p class="intro">These are real captures of Sway on iPhone, taken in the practice mode of a build that is still being made. Details may change before release.</p>
+    <ul class="wall">
+      <li><figure>
+        <video controls muted playsinline preload="metadata" width="604" height="1314" poster="assets/video/sway-play-30s-poster.png" aria-label="A 30 second recording of Sway in play, without sound">
+          <source src="assets/video/sway-play-30s.mp4" type="video/mp4">
+          <a href="assets/video/sway-play-30s.mp4">Watch the 30 second recording (MP4)</a>
+        </video>
+        <figcaption class="placard"><p class="eyebrow">Recording, 30 seconds, no sound</p><b>A merge, a catch, a gust and a score</b><span>Pieces go up one at a time. Two merge and a gust comes through. Then a rod sheds its pieces and the rod below catches two of them.</span></figcaption>
+      </figure></li>
+      <li><figure>
+        <img src="assets/img/shots/01-merge.png" width="600" height="1221" loading="lazy" alt="Sway in play. A single black rod hangs level with a blue disc and a yellow bead on the left and a red half-moon on the right. Brass labels read Merge! +25 and Merge! +12. A blue Points plate shows 44 and a red Mult plate shows 13. A chip at the top reads Gust after next piece. The tray below holds a blue disc of weight 2 and a red bead of weight 1.">
+        <figcaption class="placard"><p class="eyebrow">Capture</p><b>A merge pays out</b><span>Points 44 × Mult 13. The chip at the top warns that a gust follows the next piece.</span></figcaption>
+      </figure></li>
+      <li><figure>
+        <img src="assets/img/shots/02-ghost.png" width="600" height="1221" loading="lazy" alt="Sway in play, with a piece held over the mobile. Dashed outlines show where each rod and piece will come to rest, and a black chip beside the top rod reads 15°. The score is 223 with 4 pieces hung.">
+        <figcaption class="placard"><p class="eyebrow">Capture</p><b>Before you let go</b><span>Dashed outlines show where everything will settle. The chip reads a tilt of 15°.</span></figcaption>
+      </figure></li>
+      <li><figure>
+        <img src="assets/img/shots/03-level.png" width="600" height="1221" loading="lazy" alt="Sway in play. Two black rods hang level, carrying a blue half-moon, a yellow disc, a blue disc, a red half-moon and a brass triangle. The score is 1,114 and a green line reads Level streak ×4. The tray below holds a yellow bead of weight 1 and a black disc of weight 2.">
+        <figcaption class="placard"><p class="eyebrow">Capture</p><b>Two rods, both level</b><span>A score of 1,114 and a level streak of 4.</span></figcaption>
+      </figure></li>
+    </ul>
+  </div>
+</section>
+
+<section class="section" id="price" aria-labelledby="price-title">
+  <div class="wrap">
+    <p class="eyebrow">On your iPhone</p>
+    <h2 id="price-title">One hand. One price.</h2>
+    <div class="split">
+      <div class="panel">
+        <h3>Made for one hand</h3>
+        <ul>
+          <li>iPhone, with iOS 18 or later</li>
+          <li>Plays in portrait</li>
+          <li>One hand is enough</li>
+          <li>A run takes about 12 to 15 minutes</li>
+        </ul>
+      </div>
+      <div class="panel price">
+        <h3>One price. Nothing else.</h3>
+        <p>Sway is a premium game. You pay once, and that is all. The planned price is USD 3.99.</p>
+        <ul>
+          <li>No ads</li>
+          <li>No in-app purchases</li>
+          <li>No account</li>
+          <li>No analytics and no tracking</li>
+          <li>Your progress, settings and gallery stay on your iPhone</li>
+        </ul>
+        <p><a href="privacy-policy.html">Read the privacy policy</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="closing" aria-labelledby="closing-title">
+  <div class="wrap">
+    <picture><source srcset="assets/img/icon-192-dark.png" media="(prefers-color-scheme: dark)"><img src="assets/img/icon-192.png" alt="" width="88" height="88"></picture>
+    <!-- store-closing:start --><h2 id="closing-title">Coming to the App Store.</h2>
+    <p>Sway is in development. There is no release date yet.</p><!-- store-closing:end -->
+    <div class="cta">
+      <!-- store-cta:start --><span class="soon">Coming soon to the App Store</span><!-- store-cta:end -->
+      <a class="btn ghost" href="support.html">Support</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <nav aria-label="Footer">
+      <a href="./" aria-current="page">Home</a>
+      <a href="press.html">Press kit</a>
+      <a href="support.html">Support</a>
+      <a href="privacy-policy.html">Privacy Policy</a>
+      <a href="terms-of-service.html">Terms of Use</a>
+      <a href="mailto:info@jakeawilliams.com">Contact</a>
+    </nav>
+    <p>Type set in DM Serif Display and DM Sans, under the SIL Open Font License (<a href="assets/fonts/OFL-DMSerifDisplay.txt">DM Serif Display licence</a>, <a href="assets/fonts/OFL-DMSans.txt">DM Sans licence</a>).</p>
+    <p>&copy; 2026 Jake Williams. Apple, iPhone, Game Center, TestFlight and App Store are trademarks of Apple Inc., registered in the U.S. and other countries.</p>
+  </div>
+</footer>
+</body>
+</html>
